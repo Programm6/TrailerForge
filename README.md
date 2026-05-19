@@ -1,7 +1,7 @@
-ellyfin TrailerForge V8.5
-Der beste lokale deutsche Trailer-Downloader für Jellyfin
+TrailerForge
+Der beste lokale deutsche Trailer-Downloader für Jellyfin , Plex & Co.
 Warum TrailerForge?
-Jellyfin kann zwar von Haus aus Trailer abspielen und viele sind mit Media Bar (Enhanced) zufrieden.
+Jellyfin kann beispielsweise zwar von Haus aus Trailer abspielen und viele sind mit dem Plugin Media Bar +(Enhanced) zufrieden.
 TrailerForge ist jedoch die perfekte Ergänzung für alle, die eine komplett lokale Lösung wollen.
 Während Media Bar Trailer live aus dem Internet lädt, erstellt TrailerForge hochwertige, saubere und dauerhaft lokale Trailer – einmal heruntergeladen, immer verfügbar.
 Vorteile der lokalen Lösung
