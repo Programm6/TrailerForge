@@ -1,62 +1,51 @@
-Jellyfin TrailerForge V8.5
-
+ellyfin TrailerForge V8.5
 Der beste lokale deutsche Trailer-Downloader für Jellyfin
+Warum TrailerForge?
+Jellyfin kann zwar von Haus aus Trailer abspielen und viele sind mit Media Bar (Enhanced) zufrieden.
+TrailerForge ist jedoch die perfekte Ergänzung für alle, die eine komplett lokale Lösung wollen.
+Während Media Bar Trailer live aus dem Internet lädt, erstellt TrailerForge hochwertige, saubere und dauerhaft lokale Trailer – einmal heruntergeladen, immer verfügbar.
+Vorteile der lokalen Lösung
 
-Warum dieses Tool?
+Zukunftssicher — Funktioniert auch, wenn YouTube das Scraping weiter erschwert
+Höchste Qualität — Bis 4K (statt oft nur HD bei Online-Lösungen)
+Saubere Trailer — Keine Intros, Outros, Werbung oder Logo-Schleifen dank intelligentem Auto-Trimming
+Vollkommen offline-fähig
+Optimale Jellyfin-Kompatibilität
 
-Jellyfin kann bereits von Haus aus Trailer abspielen und viele Nutzer sind mit dem Media Bar Plugin (oder Media Bar Enhanced) sehr zufrieden.
-
-TrailerForge ist die perfekte Ergänzung dazu.
-
-Während Media Bar Trailer live aus dem Internet holt, erstellt TrailerForge hochwertige, saubere und komplett lokale Trailer, die du einmalig herunterlädst und dann dauerhaft in deiner Mediathek nutzen kannst.
-
-Die Vorteile der lokalen Lösung:
-Zukunftssicher: YouTube erschwert zunehmend das automatische Abrufen von Trailern. Lokale Trailer funktionieren immer.
-Höchste Qualität: Bis 4K statt oft nur HD bei Online-Lösungen
-Saubere Trailer: Keine nervigen Kanal-Intros, Outros, Werbung oder Logo-Schleifen mehr dank intelligentem Auto-Trimming
-Offline-fähig: Trailer sind lokal verfügbar – auch ohne Internet
-Optimale Jellyfin-Kompatibilität: Durch automatische AAC-Audio-Normalisierung
 Warum AAC-Umwandlung?
+Das Tool lädt bewusst die beste verfügbare Quelle (oft mit Opus-Audio).
+Opus verursacht jedoch bei vielen Geräten und Jellyfin Direct Play Probleme.
+Deshalb wandelt TrailerForge das Audio automatisch in AAC (192 kbit/s) um – die beste und kompatibelste Lösung für Jellyfin. Das Video bleibt in voller Originalqualität erhalten.
 
-Das Tool lädt bewusst die beste verfügbare Quelle/Qualität herunter (oft mit Opus-Audio).
-Opus führt jedoch in Jellyfin häufig zu Problemen mit Direct Play und verursacht Transcoding oder Abspielprobleme auf verschiedenen Geräten.
+✨ Highlights Version 8.5
 
-Deshalb konvertiert TrailerForge das Audio automatisch auf AAC (192 kbit/s) – die beste und kompatibelste Lösung für Jellyfin. Das Video bleibt dabei in voller Originalqualität erhalten.
-
-TMDB API-Schlüssel erforderlich
-
-TrailerForge nutzt die API von TMDB (The Movie Database), um Filme und Serien intelligent zu erkennen und passende Trailer zu finden.
-
-Dafür wird ein kostenloser API-Schlüssel benötigt.
-
-Die Einrichtung ist unkompliziert:
-
-Kostenlosen Account bei TMDB erstellen
-Unter den API-Einstellungen einen persönlichen API-Key erstellen
-Den Schlüssel im Script eintragen
-
-TMDB stellt die API kostenlos für private Projekte und Medienverwaltung zur Verfügung.
-
-✨ Highlights V8.5
-Smart Sync Modus – Erkennt automatisch bereits vorhandene Trailer und lädt nur Fehlende herunter
-Erweiterte Trailer-Erkennung (verschiedene Dateinamen)
-Intelligentes Auto-Trim V8.3 – Entfernt Intro und Outro per Silence- und Blackframe-Erkennung
-Vollautomatisches Setup (venv + smarte FFmpeg-Suche)
+Smart Sync Modus — Erkennt automatisch bereits vorhandene Trailer und lädt nur fehlende nach
+Erweiterte Trailer-Erkennung — Unterstützt verschiedene Dateinamen-Konventionen
+Intelligentes Auto-Trim V8.3 — Entfernt Intro und Outro per Silence- & Blackframe-Erkennung
+Vollautomatisches Setup — venv + smarte FFmpeg-Suche
 Stabiler Node.js-Support für yt-dlp
-Logging in Datei + Abbruch-Button
+Logging in Datei + praktischer Abbruch-Button
+
 Hauptfunktionen
+
 Starke Studio- und Deutsche Priorität
 NFO-Support (TMDB-ID wird bevorzugt)
-Intelligentes Smart-Matching als zuverlässiger Fallback, falls keine NFO-Datei vorhanden ist (inkl. Jahres-Erkennung aus Ordnernamen)
-Download in bester verfügbarer Qualität (bis 2160p)
+Intelligentes Smart-Matching als Fallback (inkl. Jahres-Erkennung aus Ordnernamen)
+Download in bester verfügbarer Qualität (bis 2160p/4K)
 Automatische AAC-Audio-Normalisierung
-Gespiegelte Ordnerstruktur (exakt wie deine Mediathek)
-Funktionsweise
+Exakt gespiegelte Ordnerstruktur wie deine Mediathek
+
+So funktioniert es
+
 Scannt deine Medienbibliothek (Filme oder Serien getrennt empfohlen)
 Prüft, ob bereits ein passender Trailer existiert
 Liest zuerst die .nfo-Datei aus (bevorzugt)
-Bei fehlender oder unvollständiger NFO führt es intelligentes TMDB-Smart-Matching durch (inkl. Jahres-Erkennung)
-Sucht den besten deutschen Trailer (TMDB → YouTube Fallback)
-Download + intelligentes Trimmen von Intro & Outro
+Bei fehlender NFO: Intelligentes TMDB-Smart-Matching
+Sucht den besten deutschen Trailer (TMDB → YouTube-Fallback)
+Download + intelligentes Trimmen
 Automatische AAC-Konvertierung
-Speichert die Trailer in exakt gespiegelter Ordnerstruktur
+Speichert den Trailer perfekt in der Mediathek
+
+
+TMDB API-Schlüssel erforderlich (kostenlos für private Nutzung)
+Möchtest du noch eine kürzere, knackigere Version (z. B. für Reddit, Discord oder ein Forum) oder soll ich noch mehr Akzente setzen?
