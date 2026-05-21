@@ -48,4 +48,3 @@ Speichert den Trailer perfekt in der Mediathek
 
 
 TMDB API-Schlüssel erforderlich (kostenlos für private Nutzung)
-Möchtest du noch eine kürzere, knackigere Version (z. B. für Reddit, Discord oder ein Forum) oder soll ich noch mehr Akzente setzen?
