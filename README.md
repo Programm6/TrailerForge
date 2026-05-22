@@ -29,11 +29,16 @@ Das Video bleibt dabei in **voller Originalqualität** erhalten – die beste Ba
 
 ### Hauptfunktionen
 - Starke Studio- und **Deutsche Priorität**
-- **NFO-Support** (TMDB-ID wird bevorzugt ausgelesen)
+- **NFO-Support** (TMDB-ID wird bevorzugt ausgelesen) ← **sehr empfohlen für beste Trefferquote**
 - Intelligentes **Smart-Matching** als Fallback (mit Jahres-Erkennung)
 - Download in bester verfügbarer Qualität (bis 2160p/4K)
 - Automatische AAC-Audio-Normalisierung
 - Exakt gespiegelte Ordnerstruktur wie deine Mediathek
+
+### Wichtiger Hinweis für optimale Ergebnisse
+Für die **beste Trefferquote** solltest du in Jellyfin bei jeder Mediathek folgende Einstellung aktivieren:  
+**„NFO in den Metadaten speichern“** (unter Metadaten-Speicherung).  
+TrailerForge nutzt die TMDB-ID aus den `.nfo`-Dateien bevorzugt, was deutlich präzisere und schnellere Ergebnisse liefert.
 
 ### So funktioniert es
 1. Scannt deine Medienbibliothek (Filme und Serien)
