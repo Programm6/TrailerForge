@@ -17,7 +17,7 @@ Das Tool lädt bewusst die beste verfügbare Quelle (oft mit Opus-Audio).
 Opus verursacht jedoch bei vielen Geräten und Jellyfin Direct Play Probleme.
 Deshalb wandelt TrailerForge das Audio automatisch in AAC (192 kbit/s) um – die beste und kompatibelste Lösung für Jellyfin. Das Video bleibt in voller Originalqualität erhalten.
 
-✨ Highlights Version 8.5
+✨ Highlights
 
 Smart Sync Modus — Erkennt automatisch bereits vorhandene Trailer und lädt nur fehlende nach
 Erweiterte Trailer-Erkennung — Unterstützt verschiedene Dateinamen-Konventionen
