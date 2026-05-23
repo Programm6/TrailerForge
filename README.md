@@ -39,7 +39,7 @@ Das Video bleibt dabei in **voller Originalqualität** erhalten – die beste Ba
 Für die **beste Trefferquote** solltest du in Jellyfin bei jeder Mediathek folgende Einstellung aktivieren:  
 **„NFO in den Metadaten speichern“** (unter Metadaten-Speicherung).  
 TrailerForge nutzt die TMDB-ID aus den `.nfo`-Dateien bevorzugt, was deutlich präzisere und schnellere Ergebnisse liefert.
-TrailerForge ist optimiert Trailer für Filme zu beziehen, Serien/TVShow Support ist noch im Anfangsstadium.
+TrailerForge ist optimiert darauf Trailer für Filme zu beziehen, Serien/TVShow Support ist noch im Anfangsstadium.
 
 ### So funktioniert es
 1. Scannt deine Medienbibliothek (Filme und Serien)
